@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¡Me recibí!</title>
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #00ffcc;
+      font-family: "Courier New", monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .terminal-box {
+      background-color: #1e1e1e;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #00ffcc;
+      width: 80%;
+      max-width: 800px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #00ffcc;
+    }
+
+    pre {
+      background-color: #121212;
+      padding: 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 1em;
+    }
+
+    .keyword { color: #ff79c6; }
+    .string { color: #f1fa8c; }
+    .function { color: #8be9fd; }
+    .comment { color: #6272a4; font-style: italic; }
+    .heart { color: #ff5555; }
+  </style>
+</head>
+<body>
+  <div class="terminal-box">
+    <h1>// Soy Técnico, ME RECIBÍ 🎓</h1>
+    <pre><code>
+<span class="comment">// Código de celebración activado...</span>
+
+<span class="keyword">function</span> <span class="function">felicitar</span>(persona) {
+  <span class="keyword">return</span> <span class="string">`¡Felicidades ${persona}! 🎉 Eres oficialmente Técnico en Sistemas 👨‍💻`</span>;
+}
+
+<span class="keyword">const</span> novio = <span class="string">"Mi amor"</span>;
+<span class="keyword">const</span> mensaje = felicitar(novio);
+
+<span class="keyword">console</span>.log(mensaje);
+
+<span class="comment">// Mensaje oculto para ti ❤️</span>
+<span class="keyword">if</span> (novio === <span class="string">"Mi amor"</span>) {
+  <span class="keyword">console</span>.log(<span class="string">"Estoy tan orgullosa de vos 🥹. Este es solo el comienzo. Te amo. <span class="heart">&lt;3</span>"</span>);
+}
+    </code></pre>
+  </div>
+</body>
+</html>
